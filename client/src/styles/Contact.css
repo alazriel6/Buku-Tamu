@@ -1,0 +1,13 @@
+.contact-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(130deg, #1b0138, #472879, #100127);
+    border: 1px solid #7e0eda;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+}

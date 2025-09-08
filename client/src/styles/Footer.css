@@ -1,0 +1,40 @@
+.footer {
+  background: linear-gradient(130deg, #1b0138, #472879, #100127);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer .social-icons a {
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #ae00ff; /* Ungu highlight */
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    font-size: 0.9rem;
+  }
+
+  .footer .social-icons a {
+    font-size: 1rem;
+  }
+}
